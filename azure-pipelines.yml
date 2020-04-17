@@ -16,6 +16,8 @@ trigger:
   branches:
     include:
       - "*"
+    exclude:
+      - "lgtm"
 
 stages:
   - stage: "sdist"
